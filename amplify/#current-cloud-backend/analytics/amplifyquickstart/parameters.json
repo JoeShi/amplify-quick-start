@@ -1,0 +1,11 @@
+{
+    "appName": "amplifyquickstart",
+    "roleName": "pinpointLambdaRole25065fe4",
+    "cloudWatchPolicyName": "cloudWatchPolicy25065fe4",
+    "pinpointPolicyName": "pinpointPolicy25065fe4",
+    "authPolicyName": "pinpoint_amplify_25065fe4",
+    "unauthPolicyName": "pinpoint_amplify_25065fe4",
+    "authRoleName": "amplifyquickstart-20181208165133-authRole",
+    "unauthRoleName": "amplifyquickstart-20181208165133-unauthRole",
+    "IAMPrefix": "178770047227"
+}

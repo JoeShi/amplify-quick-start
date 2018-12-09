@@ -1,0 +1,47 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyquickstart-20181208165133-authRole",
+            "UnauthRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplifyquickstart-20181208165133-deployment",
+            "UnauthRoleName": "amplifyquickstart-20181208165133-unauthRole",
+            "StackName": "amplifyquickstart-20181208165133",
+            "StackId": "arn:aws:cloudformation:us-west-2:178770047227:stack/amplifyquickstart-20181208165133/775be5a0-fac6-11e8-8c30-021aeadbff90"
+        }
+    },
+    "auth": {
+        "cognito4bbd3c94": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplifyquickstart-20181208165133-deployment/amplify-cfn-templates/auth/cognito4bbd3c94-cloudformation-template.yml",
+                "logicalId": "authcognito4bbd3c94"
+            },
+            "lastPushTimeStamp": "2018-12-08T09:01:52.912Z",
+            "output": {
+                "IdentityPoolId": "us-west-2:2492e5c9-3362-4c6b-9090-d7984040e85d",
+                "IdentityPoolName": "amplifyquickstart_identitypool_4adc80b5"
+            },
+            "lastPushDirHash": "Divsphm3CoAsKsPq7ou/wyQdN0I="
+        }
+    },
+    "analytics": {
+        "amplifyquickstart": {
+            "service": "Pinpoint",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplifyquickstart-20181208165133-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+                "logicalId": "analyticsamplifyquickstart"
+            },
+            "lastPushTimeStamp": "2018-12-08T09:01:52.912Z",
+            "output": {
+                "appName": "amplifyquickstart",
+                "Region": "us-east-1",
+                "Id": "974be01499dd4d4bb757896ab851b8df"
+            },
+            "lastPushDirHash": "8L/nzMUrZizmmV/zjafjQY5NED0="
+        }
+    }
+}

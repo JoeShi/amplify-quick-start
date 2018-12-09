@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyquickstart-20181208165133-authRole",
+            "UnauthRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplifyquickstart-20181208165133-deployment",
+            "UnauthRoleName": "amplifyquickstart-20181208165133-unauthRole",
+            "StackName": "amplifyquickstart-20181208165133",
+            "StackId": "arn:aws:cloudformation:us-west-2:178770047227:stack/amplifyquickstart-20181208165133/775be5a0-fac6-11e8-8c30-021aeadbff90"
+        }
+    }
+}

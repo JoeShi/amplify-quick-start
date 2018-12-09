@@ -1,0 +1,16 @@
+{
+    "identityPoolName": "amplifyquickstart_identitypool_4adc80b5",
+    "allowUnauthenticatedIdentities": true,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "amplifyquickstart_lambda_log_policy",
+    "openIdLambdaRoleName": "amplifyquickstart_openid_lambda_role",
+    "openIdRolePolicy": "amplifyquickstart_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "amplifyquickstart_openid_lambda_iam_policy",
+    "openIdLogPolicy": "amplifyquickstart_openid_lambda_log_policy",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito4bbd3c94",
+    "unAuthRoleName": "amplifyquickstart-20181208165133-unauthRole",
+    "authRoleName": "amplifyquickstart-20181208165133-authRole",
+    "unAuthRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-unauthRole",
+    "authRoleArn": "arn:aws:iam::178770047227:role/amplifyquickstart-20181208165133-authRole"
+}
